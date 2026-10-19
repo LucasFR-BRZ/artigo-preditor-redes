@@ -17,7 +17,11 @@ Fonte dos dados: https://huggingface.co/datasets/ezharjan/LocalNetDynamics. Não
 Os rótulos foram derivados de regras. A avaliação temporal teve somente seis casos positivos no teste, com mais de mil falsos positivos por modelo. O estudo **não comprova previsão antecipada** nem valida implantação em produção.
 
 ## Autores
-Pedro Gabriel Castro da Silva, Ricardo Aguilar Arapa, Lucas Felix Romero, Luiz Eduardo dos Reis e Rodrigo Camargo Vieira.
+Pedro Gabriel Castro da Silva,
+Ricardo Aguilar Arapa, 
+Lucas Felix Romero, 
+Luiz Eduardo dos Reis 
+Rodrigo Camargo Vieira.
 
 ## Referências
 Listadas ao final de `index.html`; figuras esquemáticas produzidas para esta página.
