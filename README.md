@@ -9,7 +9,7 @@ Artigo técnico sobre Árvore de Decisão, Random Forest e XGBoost na classifica
 - `requirements.txt`: requisitos para reproduzir o experimento
 - `images`: imagens para adição na seção de autores
 ## Reproduzir o experimento
-Abrir `notebooks/experimento_com_resultados.ipynb` no Google Colab e executar todas as células em ordem. Requer internet para baixar a base pública LocalNet-Dynamics e instalar bibliotecas. Bibliotecas usadas: Python 3, pandas, numpy, datasets, scikit-learn, xgboost, matplotlib e seaborn. **Registrar as versões exatas no Colab antes da entrega**, por exemplo com `import sklearn, xgboost, pandas, datasets; print(sklearn.__version__, xgboost.__version__, pandas.__version__, datasets.__version__)`.
+Abrir `notebooks/experimento_com_resultados.ipynb` no Google Colab e executar todas as células em ordem. Requer internet para baixar a base pública LocalNet-Dynamics e instalar bibliotecas. Bibliotecas usadas: Python 3, pandas, numpy, datasets, scikit-learn, xgboost, matplotlib e seaborn. **Registrar as versões exatas no Colab antes da entrega**, por exemplo com `import sklearn, xgboost, pandas, datasets; print(sklearn.__version__, xgboost.__version__, pandas.__version__, datasets.__version__)`. 
 
 Fonte dos dados: https://huggingface.co/datasets/ezharjan/LocalNetDynamics. Não redistribuir os dados sem conferir os termos de licença na fonte.
 
