@@ -36,14 +36,14 @@ Maior F1: Random Forest (0,2713 aleatório; 0,0096 temporal). O teste temporal t
 - Boosting: documentação oficial e Chen e Guestrin (2016), citados no artigo.
 - Quadro de observação: DataCamp — Ensemble Learning in Python; XGBoost — Introduction to Boosted Trees. Observações e decisões revisadas e validadas pelo grupo em 21/10/2026.
 - Figuras 1 e 2: esquemas criados para o artigo. Gráficos e matrizes: resultados do notebook. Figuras 5–8: saídas originais exportadas do notebook.
-- Fotos de Pedro, Ricardo, Lucas e Rodrigo: fornecidas para o site; não abrangidas automaticamente pela licença do texto. Autorizações devem ser guardadas privadamente pelo grupo.
+- Fotos de Pedro, Ricardo, Lucas, Luiz e Rodrigo: fornecidas para o site; não abrangidas automaticamente pela licença do texto. Autorizações devem ser guardadas privadamente pelo grupo.
 - Texto e ilustrações originais: a página indica CC BY 4.0 como licença sugerida; o grupo deve confirmar a adoção. Código: licença ainda a definir. A licença MIT dos dados é independente dessas decisões.
 
 ## Publicação e pendências humanas
 
 GitHub Pages: branch `main`, pasta raiz. Após cada commit, conferir a execução de Pages em Actions e a URL pública.
 
-- Enviar foto autorizada de Luiz; completar mini-bios e LinkedIn pendentes. Não preencher com dados inferidos.
+- Completar a mini-bio de Ricardo com semestre e área de interesse fornecidos pelo integrante.
 - Confirmar consentimento específico de cada autor e a licença do material original, fora do repositório público.
 - Substituir o contato pendente apenas por canal institucional autorizado. E-mail pessoal retirado do site.
 - Cada integrante deve fazer seus próprios commits; não fabricar participação.
