@@ -10,19 +10,21 @@ Comparação de Árvore de Decisão, Random Forest e XGBoost na classificação 
 
 - `index.html` e `css/style.css`: artigo estático, sem servidor.
 - `images/`: fotos fornecidas e figuras extraídas das saídas do notebook.
-- `notebooks/experimento_com_resultados.ipynb`: execução original e avaliação temporal; célula adicional de registro de ambiente ainda sem execução.
-- `requirements.txt`: dependências diretas; ainda sem versões históricas verificadas.
+- `notebooks/experimento_com_resultados.ipynb`: execução original e avaliação temporal; histórico preservado. A reexecução completa está no notebook datado de 21/10/2026.
+- `requirements.txt`: dependências diretas fixadas nas versões da reexecução.
 
 ## Reproduzir o experimento
 
-1. Use um ambiente Python 3 com acesso à internet, preferencialmente Google Colab com runtime novo. A versão exata do Python da execução original não foi registrada.
-2. Instale as dependências com `python -m pip install -r requirements.txt`, ou execute a célula de instalação do notebook no Colab.
-3. Execute todas as células em ordem. A célula de ambiente grava `ambiente_execucao.json` e `requirements-execucao.txt` com versões reais de Python e bibliotecas. Guarde esses arquivos junto dos novos resultados. Para repetir esse novo ambiente, use a mesma versão do Python e instale `pip install -r requirements-execucao.txt`.
-4. O notebook baixa a base pública com `load_dataset("ezharjan/LocalNetDynamics", split="train")`. Fonte: https://huggingface.co/datasets/ezharjan/LocalNetDynamics. Licença MIT informada na página, consultada em 21/10/2026; preserve os créditos e termos da fonte. Os dados brutos não são distribuídos neste repositório.
-5. Entradas: `jitter_ms` e `packet_loss_pct`; alvo: `label_high_latency`. RTT não entra em X porque participa da geração do rótulo. Semente 42; quatro candidatos por modelo; três partes de validação cruzada. Imputação e ajuste ocorrem no treino.
-6. Execute a avaliação aleatória e, em seguida, a temporal. Confira os CSVs de métricas e matrizes gerados. Tempos variam por máquina.
+Reexecução completa realizada em 21/10/2026 em ambiente virtual novo, Python 3.12.14, sem saídas ou variáveis antigas. Usado `n_jobs=1` devido à restrição de criação de processos. Todas as células terminaram sem erro.
 
-**Limite de reprodução:** as versões antigas e a revisão exata dos dados não foram registradas. Portanto, não é possível garantir números idênticos aos publicados. Antes da entrega, executar em ambiente limpo, registrar versões e revisão da base, comparar os resultados e atualizar o artigo se necessário. Não inventar versões nem substituir as métricas sem nova execução.
+1. Crie ambiente virtual com Python 3.12.14 e instale `python -m pip install -r requirements.txt`.
+2. Abra `notebooks/experimento_reexecutado_20261021.ipynb` e execute todas as células em ordem. A célula de download fixa a revisão dos dados.
+3. Confira `reproducao/20261021/RELATORIO.md`, os CSVs, `ambiente_execucao.json` e `dataset_revision.json`. O arquivo `requirements-lock.txt` registra também dependências transitivas e ferramentas do ambiente Linux.
+4. Fonte dos dados: https://huggingface.co/datasets/ezharjan/LocalNetDynamics, licença MIT informada pela fonte. Não distribuímos os dados brutos.
+
+Entradas: `jitter_ms`, `packet_loss_pct`; alvo: `label_high_latency`; semente 42; quatro candidatos por modelo; três partes de validação cruzada. O teste final não participa do ajuste.
+
+As versões da execução original não foram registradas. O notebook anterior permanece como histórico. A floresta mantém o maior F1, mas a nova execução tem F1 aleatório 0,2693 e 1.242 FP temporais (antes: 0,2713 e 1.236). Os tempos não são diretamente comparáveis entre ambientes.
 
 ## Resultados e interpretabilidade
 
@@ -46,4 +48,5 @@ GitHub Pages: branch `main`, pasta raiz. Após cada commit, conferir a execuçã
 - Substituir o contato pendente apenas por canal institucional autorizado. E-mail pessoal retirado do site.
 - Cada integrante deve fazer seus próprios commits; não fabricar participação.
 - Testar no celular e ensaiar cinco minutos com participação de todos.
-- Reexecutar o notebook do início ao fim em ambiente limpo e guardar ambiente/revisão dos dados. Essa reexecução não foi realizada nesta revisão editorial.
+- Reexecução em ambiente limpo concluída; ambiente, revisão dos dados e evidências estão em `reproducao/20261021/`. Testar também o notebook no ambiente de apresentação do grupo.
+

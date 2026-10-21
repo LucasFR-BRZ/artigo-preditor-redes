@@ -1,0 +1,4 @@
+﻿Modelo,Acurácia,Precisão (classe 1),Recall (classe 1),F1 (classe 1),F1 macro,Falso positivo,Falso negativo,Verdadeiro negativo,Verdadeiro positivo,Treino + ajuste (s),Predição do teste (s),Melhores parâmetros
+Árvore de Decisão,0.8784328084950568,0.004497751124437781,1.0,0.008955223880597015,0.47210000320224504,1328,0,9590,6,0.41264205800007403,0.0019881040002474037,"{'modelo__max_depth': 8, 'modelo__min_samples_leaf': 5}"
+Random Forest,0.8863053826437203,0.004807692307692308,1.0,0.009569377990430622,0.4746302750882521,1242,0,9676,6,19.921449630000097,0.03403064300027836,"{'modelo__max_depth': 8, 'modelo__n_estimators': 100}"
+XGBoost,0.8739472720615159,0.004338394793926247,1.0,0.008639308855291577,0.47066698323159517,1377,0,9541,6,1.565005318999738,0.008147218999965844,"{'modelo__learning_rate': 0.1, 'modelo__max_depth': 3, 'modelo__n_estimators': 100}"

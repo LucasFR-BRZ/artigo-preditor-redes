@@ -1,0 +1,4 @@
+﻿Modelo,Verdadeiro normal,Falso positivo,Falso negativo,Verdadeiro latência alta
+Árvore de Decisão,7173,3138,32,581
+Random Forest,7222,3089,37,576
+XGBoost,7186,3125,40,573
