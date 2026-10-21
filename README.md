@@ -32,7 +32,7 @@ Maior F1: Random Forest (0,2713 aleatório; 0,0096 temporal). O teste temporal t
 
 - Conceitos de árvores e florestas: documentação oficial do scikit-learn, citada no artigo.
 - Boosting: documentação oficial e Chen e Guestrin (2016), citados no artigo.
-- Quadro de observação: DataCamp — Ensemble Learning in Python; XGBoost — Introduction to Boosted Trees. Observação técnica da revisão; o grupo precisa ler e validar as decisões, sem atribuir leituras a quem não as realizou.
+- Quadro de observação: DataCamp — Ensemble Learning in Python; XGBoost — Introduction to Boosted Trees. Observações e decisões revisadas e validadas pelo grupo em 21/10/2026.
 - Figuras 1 e 2: esquemas criados para o artigo. Gráficos e matrizes: resultados do notebook. Figuras 5–8: saídas originais exportadas do notebook.
 - Fotos de Ricardo e Rodrigo: fornecidas para o site; não abrangidas automaticamente pela licença do texto. Autorizações devem ser guardadas privadamente pelo grupo.
 - Texto e ilustrações originais: a página indica CC BY 4.0 como licença sugerida; o grupo deve confirmar a adoção. Código: licença ainda a definir. A licença MIT dos dados é independente dessas decisões.
@@ -45,5 +45,5 @@ GitHub Pages: branch `main`, pasta raiz. Após cada commit, conferir a execuçã
 - Confirmar consentimento específico de cada autor e a licença do material original, fora do repositório público.
 - Substituir o contato pendente apenas por canal institucional autorizado. E-mail pessoal retirado do site.
 - Cada integrante deve fazer seus próprios commits; não fabricar participação.
-- Validar o quadro de observação, testar no celular e ensaiar cinco minutos com participação de todos.
+- Testar no celular e ensaiar cinco minutos com participação de todos.
 - Reexecutar o notebook do início ao fim em ambiente limpo e guardar ambiente/revisão dos dados. Essa reexecução não foi realizada nesta revisão editorial.
