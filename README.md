@@ -2,7 +2,7 @@
 
 Comparação de Árvore de Decisão, Random Forest e XGBoost na classificação contemporânea de latência alta. O experimento não demonstra previsão antecipada de falhas.
 
-- Site: https://lucasfr-brz.github.io/artigo-preditor-redes/
+- Site: [https://lucasfr-brz.github.io/artigo-preditor-redes/](http://preditor-redes.lucasromerofelix.workers.dev/)
 - Repositório: https://github.com/LucasFR-BRZ/artigo-preditor-redes
 - Autores: Pedro Gabriel Castro da Silva, Ricardo Aguilar Arapa, Lucas Felix Romero, Luiz Eduardo dos Reis e Rodrigo Camargo Vieira.
 
